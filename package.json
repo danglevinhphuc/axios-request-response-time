@@ -8,6 +8,9 @@
     },
     "author": "danglevinhphuc",
     "license": "",
+    "repository": {
+        "url": "git@github.com:danglevinhphuc/axios-request-response-time.git"
+    },
     "devDependencies": {
         "axios": "^0.20.0"
     }
