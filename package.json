@@ -9,6 +9,6 @@
     "author": "danglevinhphuc",
     "license": "",
     "repository": {
-        "url": "git@github.com:danglevinhphuc/axios-request-response-time.git"
+        "url": "git+ssh://git@github.com/danglevinhphuc/axios-request-response-time.git"
     }
 }

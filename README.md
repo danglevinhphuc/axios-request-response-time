@@ -7,7 +7,7 @@ Axios plugin to measure the actual time from request and response
 ## Installation
 You can install this plugin using **NPM**
 ```bash
-> npm i axios-time
+> npm i axios-request-response-time
 ```
 
 ## Basic Usage
