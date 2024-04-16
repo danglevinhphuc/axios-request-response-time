@@ -7,19 +7,19 @@ module.exports = function (instance) {
     });
 
     instance.interceptors.response.use(function (response) {
-        response.timings = getResponseTimingData(response?.config?.timingStart);
+        response.timings = getResponseTiming(response?.config?.timingStart);
 
         return response;
     }, function (error) {
         if (error.config){
-            error.config.timings = getResponseTimingData(error?.config?.timingStart);
+            error.config.timings = getResponseTiming(error?.config?.timingStart);
         };
 
         return Promise.reject(error);
     });
 };
 
-const getResponseTimingData = (timingStart = 0) => {
+const getResponseTiming = (timingStart = 0) => {
     const timingEnd = Date.now();
     return {
         timingEnd,

@@ -1,6 +1,6 @@
 {
     "name": "axios-request-response-time",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Axios plugin to measure the actual time from request and response",
     "main": "index.js",
     "scripts": {
@@ -10,8 +10,5 @@
     "license": "",
     "repository": {
         "url": "git@github.com:danglevinhphuc/axios-request-response-time.git"
-    },
-    "devDependencies": {
-        "axios": "^0.20.0"
     }
 }
