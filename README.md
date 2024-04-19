@@ -1,7 +1,7 @@
 ![npm](https://img.shields.io/npm/v/axios-time)
 
 
-# axios-time
+# axios-request-response-time
 Axios plugin to measure the actual time from request and response
 
 ## Installation
